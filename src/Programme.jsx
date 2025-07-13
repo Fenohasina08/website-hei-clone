@@ -1,7 +1,5 @@
-import programmes from '../public/programmes.webp'
-import photo1programmes from '../public/photo1programmes.webp'
-import photo2programmes from '../public/photo2programmes.webp'
-import photo3programmes from '../public/photo3programmes.webp'
+import programmes from '/public/programmes.webp'
+
 import { fromJSON } from 'postcss'
 const Programmes = () => {
     const carteprogrammes = [
@@ -63,25 +61,7 @@ const Programmes = () => {
 
 
             </div>
-         <div className="flex w-full h-[40vh] items-center justify-center mt-5 gap-9 mb-8">
-                  <img
-                    src={photo1programmes}
-                    alt="Programmes"
-                    className="h-[100%]"
-                  />
-
-                  <img
-                    src={photo2programmes}
-                    alt="Programmes"
-                    className="h-[100%]"
-                  />
-
-                  <img
-                    src={photo3programmes}
-                    alt="Programmes"
-                    className="h-[100%]"
-                  />
-                </div>
+        
         </div>
     )
 }
